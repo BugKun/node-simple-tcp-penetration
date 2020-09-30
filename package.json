@@ -1,7 +1,7 @@
 {
   "name": "simple-tcp-penetration",
   "version": "1.0.0",
-  "description": "",
+  "description": "基于Node.js的TCP内网穿透",
   "main": "client.js",
   "scripts": {
     "start": "npm run server",

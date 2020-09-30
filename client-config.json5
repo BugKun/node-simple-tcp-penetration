@@ -1,0 +1,14 @@
+{
+    server_addr: "0.0.0.0",//服务端地址
+    server_port: 19999,//服务端端口
+    token: "hello server",//连接令牌
+    timeout: 3000,//请求超时时间
+    interval: 5000,//异常重试
+    binds: {//绑定内网应用
+        test: {
+            local_ip: "127.0.0.1",//当前内网被转发的ip
+            local_port: 2560,//当前内网被转发的端口
+            remote_port: 12560,//服务端映射的端口
+        }
+    }
+}

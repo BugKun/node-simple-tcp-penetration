@@ -1,0 +1,16 @@
+{
+  "name": "simple-tcp-penetration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "start": "npm run server",
+    "client": "node client.js",
+    "server": "node server.js"
+  },
+  "author": "nopast",
+  "license": "MIT",
+  "dependencies": {
+    "json5": "^2.1.3"
+  }
+}
